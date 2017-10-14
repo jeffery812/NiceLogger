@@ -1,0 +1,11 @@
+framework module NiceLogger {
+  umbrella header "NiceLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module NiceLogger.Swift {
+    header "NiceLogger-Swift.h"
+    requires objc
+}
