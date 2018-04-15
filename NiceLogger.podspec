@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/NiceLogger.git", :tag => "#{s.version}" }
-  s.source            = { :http => 'https://github.com/zhihuitang/NiceLogger/blob/master/NiceLogger.zip' }
+  s.source            = { :http => 'https://s3-eu-west-1.amazonaws.com/demo-images.ebuilder.io/NiceLogger.zip' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
