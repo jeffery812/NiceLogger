@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NiceLogger"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A nice logger tool in Swift."
 
   # This description is used to generate tags and improve search results.
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "http://EXAMPLE/NiceLogger.git", :tag => "#{s.version}" }
-  s.source            = { :http => 'https://s3.amazonaws.com/elasticbeanstalk-us-east-1-564874457370/NiceLogger.zip' }
+  s.source            = { :http => 'https://github.com/zhihuitang/NiceLogger/blob/master/NiceLogger.zip' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
